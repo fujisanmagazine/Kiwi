@@ -176,3 +176,16 @@ messages:
 	done
 
 	ls tcms/locale/en/LC_MESSAGES/*.po | xargs -n 1 -I @ msgattrib -o @ --no-fuzzy @
+
+.PHONY: push-registry
+push-registry: # docker-image
+	docker tag pub.kiwitcms.eu/kiwitcms/kiwi registry.fms-dev.com/kiwitcms/kiwi:latest
+	docker push registry.fms-dev.com/kiwitcms/kiwi:latest
+
+.PHONY: run-kiwi
+run-kiwi:
+	docker compose up -d
+
+.PHONY: stop-kiwi
+stop-kiwi:
+	docker compose down

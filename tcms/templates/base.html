@@ -64,8 +64,10 @@
 
     <script src="{% static 'js/bundle.js' %}"></script>
 
-    {% block contents %}{% endblock %}
-    {% include 'include/ads.html' %}
+    <div style="max-width: 1200px; margin: 0 auto;">
+      {% block contents %}{% endblock %}
+    </div>
+
 
     {% if SETTINGS.ANONYMOUS_ANALYTICS %}
     <img referrerpolicy="no-referrer-when-downgrade" src="https://static.scarf.sh/a.png?x-pxid={{ SETTINGS.SCARF_PIXEL_ID }}">

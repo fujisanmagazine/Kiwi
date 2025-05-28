@@ -46,3 +46,8 @@ STORAGES["staticfiles"][  # noqa: F405
 ] = "tcms.tests.storage.RaiseWhenFileNotFound"
 
 ANONYMOUS_ANALYTICS = False
+
+# Allow HTTP for development
+CSRF_COOKIE_SECURE = False
+SESSION_COOKIE_SECURE = False
+SECURE_SSL_REDIRECT = False

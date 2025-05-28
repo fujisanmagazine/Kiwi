@@ -12,6 +12,10 @@ from tcms.utils.settings import import_local_settings
 # Debug settings
 DEBUG = False
 
+# Allow HTTP if SSL is handled by a proxy
+CSRF_COOKIE_SECURE = False
+SESSION_COOKIE_SECURE = False
+SECURE_SSL_REDIRECT = False
 
 try:
     from .local_settings import *  # noqa: F401,F403

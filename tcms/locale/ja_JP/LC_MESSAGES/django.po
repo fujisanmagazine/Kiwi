@@ -92,7 +92,7 @@ msgstr "担当者"
 #: tcms/testruns/templates/testruns/search.html:35
 #: tcms/testruns/templates/testruns/search.html:183
 msgid "Product"
-msgstr "プロダクト"
+msgstr "プロダクト(製品)"
 
 #: tcms/bugs/templates/bugs/get.html:80
 #: tcms/bugs/templates/bugs/mutable.html:60
@@ -132,7 +132,7 @@ msgstr "コメント"
 
 #: tcms/bugs/templates/bugs/get.html:149
 msgid "Reopen"
-msgstr "再オープン"
+msgstr "再度オープン"
 
 #: tcms/bugs/templates/bugs/get.html:151
 #: tcms/bugs/templates/bugs/mutable.html:114
@@ -180,7 +180,7 @@ msgstr "新しい深刻度を追加"
 #: tcms/testplans/templates/testplans/mutable.html:34
 #: tcms/testruns/templates/testruns/mutable.html:48
 msgid "add new Product"
-msgstr "新しいプロダクトを追加"
+msgstr "新しい製品を追加"
 
 #: tcms/bugs/templates/bugs/mutable.html:62
 #: tcms/testplans/templates/testplans/clone.html:38
@@ -625,7 +625,7 @@ msgstr "不正な日付フォーマットです。期待値 YYYY-MM-DD [HH:MM:SS
 
 #: tcms/settings/common.py:391
 msgid "TESTING"
-msgstr "テスト中"
+msgstr "テスト"
 
 #: tcms/settings/common.py:393 tcms/testruns/templates/testruns/mutable.html:70
 msgid "New Test Plan"
@@ -665,11 +665,11 @@ msgstr ""
 
 #: tcms/settings/common.py:421
 msgid "TELEMETRY"
-msgstr "テレメトリー"
+msgstr "動作データの記録"
 
 #: tcms/settings/common.py:424
 msgid "Testing"
-msgstr "テスト中"
+msgstr "テスト"
 
 #: tcms/settings/common.py:426
 msgid "Breakdown"

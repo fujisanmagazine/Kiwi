@@ -38,5 +38,6 @@ services:
             KIWI_DB_PASSWORD: kiwi
             TZ: Asia/Tokyo
             KIWI_TIME_ZONE: Asia/Tokyo
+            KIWI_REGISTRATION_ENABLED: False
         cap_drop:
           - ALL
